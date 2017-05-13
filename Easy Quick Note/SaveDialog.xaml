@@ -1,0 +1,15 @@
+﻿<ContentDialog
+    x:Class="Easy_Quick_Note.SaveDialog"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Easy_Quick_Note"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Title="Are you sure?"
+    PrimaryButtonText="Yes"
+    SecondaryButtonText="No"
+    PrimaryButtonClick="ContentDialog_PrimaryButtonClick"
+    SecondaryButtonClick="ContentDialog_SecondaryButtonClick" Height="390.667" Width="721.333">
+    <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="Are you sure you want to close without saving?" VerticalAlignment="Top" Height="60" Width="268"/>
+</ContentDialog>
