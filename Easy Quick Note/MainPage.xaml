@@ -12,10 +12,12 @@
     </Grid>
     <Page.BottomAppBar>
         <CommandBar>
-            <AppBarButton Icon="Setting" Label="Settings" Name="settingsButton" Click="settingsButton_ClickAsync"/>
             <AppBarButton Icon="Cancel" Label="Close" Name="closeButton" Click="closeButton_ClickAsync"/>
-            <AppBarButton Icon="Save" Label="Save Note" Name="saveButton" Click="saveButton_ClickAsync"/>
+            <AppBarButton Icon="Setting" Label="Settings" Name="settingsButton" Click="settingsButton_ClickAsync"/>
+            <AppBarButton Icon="Placeholder" Label="Print Note" Name="printButton" Click="printButton_ClickAsync"/>
             <AppBarButton Icon="OpenFile" Label="Open Note" Name="loadButton" Click="loadButton_Click"/>
+            <AppBarButton Icon="Save" Label="Save Note" Name="saveButton" Click="saveButton_ClickAsync"/>
+            <AppBarButton Icon="NewFolder" Label="New Note" Name="newButton" Click="newButton_ClickAsync"/>
         </CommandBar>
     </Page.BottomAppBar>
 </Page>
